@@ -8,7 +8,7 @@ The middleware is intentionally thin, stateless, and single-tenant, acting only 
 
 [![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads())
 
-<a href="https://buymeacoffee.com/jamesstaud" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a><a href="https://buymeacoffee.com/jamesstaud" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://buymeacoffee.com/jamesstaud" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## Features
 
