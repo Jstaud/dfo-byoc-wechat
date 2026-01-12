@@ -1,8 +1,4 @@
-# NICE CXone BYOC – External Messaging Middleware
-
-This repository implements a Bring Your Own Channel (BYOC) middleware that bridges an external messaging platform (for example, a social or messaging app) with NICE CXone Digital Engagement.
-
-The middleware is intentionally thin, stateless, and single-tenant, acting only as a transport layer between the external platform and CXone. All routing, skills, agent handling, and business logic are configured inside CXone, not in this service.
+# FAQ and some other info
 
 ---
 

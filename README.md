@@ -2,6 +2,15 @@
 
 A FastAPI application that acts as a middleware bridge between CXone Digital Engagement and WeChat Service Accounts. The application handles OAuth client credentials flow for BYOC authentication and bidirectional message routing between WeChat and CXone.
 
+This repository implements a Bring Your Own Channel (BYOC) middleware that bridges an external messaging platform (for example, a social or messaging app) with NICE CXone Digital Engagement. I made this so that others who need to integrate Wechat with the Bring Your Own Channel (BYOC) feature on the Nice CXOne platform would have a little more information and hopefully saves them time. 
+
+The middleware is intentionally thin, stateless, and single-tenant, acting only as a transport layer between the external platform and CXone. All routing, skills, agent handling, and business logic are configured inside CXone, not in this service. The only exception is that I haven't implemented a channel create, update, delete endpoint set so you will have to manually create the channel once using the DFO api to get a channelid.
+
+[![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads())
+[![Azure Functions](https://img.shields.io/badge/Azure%20Functions-v4-0062AD.svg)](https://docs.microsoft.com/azure/azure-functions/)
+
+<a href="https://buymeacoffee.com/jamesstaud" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a><a href="https://buymeacoffee.com/jamesstaud" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 ## Features
 
 - OAuth 2.0 client credentials grant endpoint for BYOC authentication
